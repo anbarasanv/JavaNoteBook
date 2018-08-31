@@ -1,0 +1,32 @@
+#The java.lang.Throwable class is the root class of Java Exception hierarchy which is inherited by two subclasses: Exception and Error.
+Exceptions:
+//Throwable:
+    1.Exception
+    2.Error
+
+//Exception:
+    1.IOException
+    2.SQLException
+    3.ClassNotFoundException
+    4.RuntimeException
+        1.Arithmetic
+        2.NullPointer
+        3.NumberFormat
+        4.IndexOutOfBounds
+            1.Array IndexOutOfBounds
+            2.String IndexOutOfBounds
+//Error
+    1.StackOverflowError
+    2.VitualMachineError
+    3.OutofMemoryError
+
+//Types of Java Exceptions
+    1.Checked
+    2.Uncheked
+    3.Error
+//JavaException Key words:
+    1.try
+    2.catch
+    3.finally
+    4.throw 
+    5.throws
