@@ -1,7 +1,6 @@
 class ArithmeticExceptionExample{
     public static void main(String[] args) {
         try{
-            //Dive by Zero exception
             int a = 100/0;
         }
         catch(ArithmeticException e){
