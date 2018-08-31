@@ -8,5 +8,6 @@ class ArithmeticExceptionExample{
         }
         //Rest of the code can go here
         System.out.println("Rest of the code");
+        
     }
 }
