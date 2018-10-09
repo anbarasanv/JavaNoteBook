@@ -72,3 +72,32 @@ public class Main
         }
 	}
 }
+
+=============================
+ArrayList(Using Objects)
+=============================
+
+import java.util.*;
+class Book{
+  int Id,Price;
+  public Book(int Id, int Price){
+    this.Id = Id;
+    this.Price = Price;
+  }
+  }
+public class Main 
+{
+  
+    public static void  main(String[] args) {
+    List<Book> li = new ArrayList<Book>();
+    Book b1 = new Book(1,200);
+    Book b2 = new Book(2,250);
+    li.add(b1);
+    li.add(b2);
+    for(Book b: li){
+      System.out.println("Book Id: "+b.Id+" Price: "+b.Price);
+
+    }
+		
+	}
+}
